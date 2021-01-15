@@ -22,3 +22,7 @@
 
 - [재귀](https://github.com/sehui-byte/TIL/blob/main/Algorithm/%EC%9E%AC%EA%B7%80(Recursion).md)
 - [순열, 조합]()
+
+## DATABASE
+
+- [오라클에서 한글을 몇바이트로 인식하고 있는지 확인하기](https://github.com/sehui-byte/TIL/blob/main/DB/ORACLE/%ED%95%9C%EA%B8%80%EC%9D%B4%20%EB%AA%87%EB%B0%94%EC%9D%B4%ED%8A%B8%EB%A1%9C%20%EC%9D%B8%EC%8B%9D%EB%90%98%EA%B3%A0%20%EC%9E%88%EB%8A%94%EA%B0%80.md)
