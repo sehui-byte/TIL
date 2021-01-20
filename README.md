@@ -30,3 +30,4 @@
 
 ## Python
 - [파이썬 라이브러리 설치](https://github.com/sehui-byte/TIL/blob/main/python/%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC%20%EC%84%A4%EC%B9%98.md)
+- [파이썬 자료형](https://github.com/sehui-byte/TIL/blob/main/python/%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EC%9E%90%EB%A3%8C%ED%98%95.md)
