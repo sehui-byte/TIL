@@ -22,6 +22,7 @@
 
 - [재귀](https://github.com/sehui-byte/TIL/blob/main/Algorithm/%EC%9E%AC%EA%B7%80(Recursion).md)
 - [순열, 조합](https://github.com/sehui-byte/TIL/blob/main/Algorithm/%EC%88%9C%EC%97%B4%2C%EC%A1%B0%ED%95%A9%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98.md)
+- [큐]()
 
 ## DATABASE
 
@@ -31,3 +32,4 @@
 ## Python
 - [파이썬 라이브러리 설치](https://github.com/sehui-byte/TIL/blob/main/python/%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC%20%EC%84%A4%EC%B9%98.md)
 - [파이썬 자료형](https://github.com/sehui-byte/TIL/blob/main/python/%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EC%9E%90%EB%A3%8C%ED%98%95.md)
+- [파이썬 입출력]()
