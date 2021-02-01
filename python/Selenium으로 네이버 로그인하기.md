@@ -54,8 +54,9 @@ from selenium.webdriver.common.keys import Keys
 from selenium import webdriver
 
 def clipboard_input(id, user_input):
-    pyperclip.copy(user_input) #클립보드에 id또는pw붙여넣기
+    pyperclip.copy(user_input) #클립보드에 id또는pw 복사하여 
     driver.find_element_by_id(id).click()
+    #ctrl+v 로 클립보드 내용 붙여넣기
     ActionChains(driver).key_down(Keys.CONTROL).send_keys('v').key_up(Keys.CONTROL).perform()
   
 
