@@ -36,6 +36,7 @@
 - [파이썬 입출력&반복문](https://github.com/sehui-byte/TIL/blob/main/python/%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EC%9E%85%EC%B6%9C%EB%A0%A5%20%26%20%EB%B0%98%EB%B3%B5%EB%AC%B8.md)
 - [파이썬 튜플 요소의 합 구하기](https://github.com/sehui-byte/TIL/blob/main/python/%ED%8A%9C%ED%94%8C%20%EC%9A%94%EC%86%8C%EB%81%BC%EB%A6%AC%20%EB%8D%A7%EC%85%88%ED%95%98%EB%8A%94%20%EB%B2%95.md)
     - zip(), sum()
+- [파이썬 selenium으로 네이버 로그인하기](https://github.com/sehui-byte/TIL/blob/main/python/Selenium%EC%9C%BC%EB%A1%9C%20%EB%84%A4%EC%9D%B4%EB%B2%84%20%EB%A1%9C%EA%B7%B8%EC%9D%B8%ED%95%98%EA%B8%B0.md)
   
 ## Vue.js 기초
 - [세팅 작업](https://github.com/sehui-byte/TIL/blob/main/Vue.js/Setting%EC%9E%91%EC%97%85.md) - VSCode, node.js 
