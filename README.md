@@ -11,6 +11,11 @@
 
 ------------
 
+## Github  
+- [깃허브 원격저장소의 파일 삭제하는 법 & 복구하는 법](https://github.com/sehui-byte/TIL/blob/main/Github/%EC%9B%90%EA%B2%A9%EC%A0%80%EC%9E%A5%EC%86%8C%20%ED%8C%8C%EC%9D%BC%20%EC%82%AD%EC%A0%9C&%EB%B3%B5%EA%B5%AC%ED%95%98%EB%8A%94%20%EB%B2%95.md)  
+  
+
+------
 ## Spring
 #### 2021-01-06 spring-study 시작
 해당 레파지토리에 매일 `spring`공부한 것을 올리기로 하여 `TIL`레파지토리에 한동안 올리지 않을 수도 있다.   
