@@ -53,3 +53,10 @@
   
 ## Vue.js 기초
 - [세팅 작업](https://github.com/sehui-byte/TIL/blob/main/Vue.js/Setting%EC%9E%91%EC%97%85.md) - VSCode, node.js 
+  
+  
+  
+-------------
+## 기타
+### jstl
+- [날짜 표현 fmt](https://github.com/sehui-byte/TIL/blob/main/jstl/jstl%EB%82%A0%EC%A7%9C%ED%91%9C%ED%98%84.md)
