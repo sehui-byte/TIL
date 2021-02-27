@@ -14,7 +14,7 @@ fmt태그를 추가한다.
 <fmt:formatDate value="${insertdate}" var="insertdate2" type="DATE" pattern="yyyy-MM-dd"/>
 <c:out value="${insertdate2}" />
 ```
-결과는 2020-02-28 과 같이 나온다.
+결과는 `2020-02-28` 과 같이 나온다.
 
 ---------
 
