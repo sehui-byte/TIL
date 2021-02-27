@@ -25,7 +25,7 @@
 `spring` 공부는 아마 `spring-study`레파지토리에 기록할 듯 싶고, 한 부분에 대한 정리가 어느정도 완료되면 `내 깃허브블로그`에 업로드할 예정이다.
 
 ### Mybatis
-- [부등호 사용하여 쿼리문 작성시](https://github.com/sehui-byte/TIL/tree/main/Spring)
+- [부등호 사용하여 쿼리문 작성시 발생하는 에러 해결하는 법](https://github.com/sehui-byte/TIL/tree/main/Spring)
 ----------
 
 ## Algorithm
