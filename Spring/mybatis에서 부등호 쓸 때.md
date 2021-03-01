@@ -7,6 +7,6 @@ mybatis xml문에서 `>`나 `<`같은 부등호를 쓸 때 오류가 난다.
 		SELECT *
 		FROM (SELECT * FROM ALARM ORDER BY INSERTDATE DESC )
 		WHERE RECEIVER = #{receiver, jdbcType=VARCHAR}
-		<![CDATA[WHERE ROWNUM <= 5]]>
+		<![CDATA[AND ROWNUM <= 5]]>
 	</select>
 ```
