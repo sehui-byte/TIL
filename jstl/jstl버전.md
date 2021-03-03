@@ -4,6 +4,10 @@ jstl에서 value does not support runtime expression과 같은 경고문이 떴�
 또한 uri를 바꾸면서 작동이 안되는 부분도 있어서 jstl 버전에 대해 알아보게 되었다.
 
 --------------------
+**jstl 태그 라이브러리 설정 코드**
+```
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+```
 
 jstl 사용시에 taglib uri에 아래와 같이 2가지 경우로 uri를 쓴다.
 - `uri="http://java.sun.com/jsp/jstl/core"` 
