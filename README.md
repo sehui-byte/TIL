@@ -26,6 +26,9 @@
 
 ### Mybatis
 - [부등호 사용하여 쿼리문 작성시 발생하는 에러 해결하는 법](https://github.com/sehui-byte/TIL/tree/main/Spring)
+
+### JSTL
+- [jstl버전](https://github.com/sehui-byte/TIL/blob/main/jstl/jstl%EB%B2%84%EC%A0%84.md)
 ----------
 
 ## Algorithm
