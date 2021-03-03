@@ -47,3 +47,8 @@ pom.xml에jstl버전도 서블릿 버전에 맞춰서 적어주었다.
 이럴 경우 project의 properties에서 버전에 맞춰 설정을 바꿔주거나 
 ![image](https://user-images.githubusercontent.com/64109506/109814558-fe07ba00-7c71-11eb-9fd0-f6e17eeeb694.png)
 이게 먹히지 않으면 `.settings`에서 `org.eclipse.wst.common.project.facet.core.xml`에서 직접 수정해주면 정상적으로 작동하게 된다.
+
+
+-----------------------
+
+- [서블릿 버전별 dtd](https://baejangho.com/entry/webxml-%EC%84%9C%EB%B8%94%EB%A6%BFservlet-%EB%B2%84%EC%A0%84%EB%B3%84-DTD)
