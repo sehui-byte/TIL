@@ -44,6 +44,7 @@
 
 ## Network
 - [사용중인 포트 강제로 종료시키는 법](https://github.com/sehui-byte/TIL/commit/6f6f84dd20f412610c00b311e27f972496ad9562)
+- [참고자료 - port란 무엇인가](https://jwprogramming.tistory.com/26)
 
 ## DATABASE
 
