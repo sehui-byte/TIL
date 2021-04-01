@@ -58,6 +58,7 @@
 - [bit shift 연산자](https://github.com/sehui-byte/TIL/blob/main/Java/java-bit%20shift%EC%97%B0%EC%82%B0%20%EB%B0%8F%20%ED%99%9C%EC%9A%A9.md)
 - [java8-time패키지](https://github.com/sehui-byte/TIL/blob/main/Java/java8-time%ED%8C%A8%ED%82%A4%EC%A7%80.md)
 - [참고자료-java에서 싱글톤 패턴을 사용하는 이유와 주의점](https://elfinlas.github.io/2019/09/23/java-singleton/)
+- [참고자료 - ArrayBlockingQueue vs LinkedBlockingQueue](https://stackoverflow.com/questions/35967792/when-to-prefer-linkedblockingqueue-over-arrayblockingqueue)
   
 
 ## Python 
