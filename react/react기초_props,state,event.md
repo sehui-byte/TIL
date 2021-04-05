@@ -175,8 +175,107 @@ export default App;
 
 ## setState()    
 
-컴포넌트 생성이 끝난 후에 **동적으로 state 값을 바꾸려면** `setState()`메서드를 사용해야 한다.  
+컴포넌트 생성이 끝난 후에 **동적으로 state 값을 바꾸려면** `setState()`메서드를 사용해야 한다.    
+  
+  
+아래 코드는 TOC의 `<li>`를 클릭하면 해당 번호에 해당하는 `contents` 값이 하단에 출력되는 코드이다.  
+ 
+#### App.js
+```javascript
+import React, { Component } from 'react';
+import Subject from "./components/Subject";
+import TOC from "./components/TOC";
+import Content from "./components/Content";
+import './App.css';
 
+
+class App extends Component{
+  constructor(props){
+    super(props);
+    this.state = {
+      mode: 'welcome',
+      selected_content_id : 2,
+      welcome: {title: 'Welcome', desc:'Hello, React!'},
+      subject: {title: 'WEB', sub: 'World Wide Web!'},
+      contents: [
+        {id:1, title:'html', desc:'Html is HyperText...'},
+        {id:2, title:'css', desc:'css is for design...'},
+        {id:3, title:'JavaScript', desc: 'Javascript is for interactive...'}
+      ]
+    }
+  }
+  render(){
+    console.log('App render');
+    var _title, _desc = null;
+    if(this.state.mode === 'welcome'){
+      _title = this.state.welcome.title;
+      _desc = this.state.welcome.desc;
+    }else if(this.state.mode === 'read'){
+      var i= 0;
+      while(i < this.state.contents.length){
+        var data = this.state.contents[i];
+        if(data.id === this.state.selected_content_id){
+          _title = data.title;
+          _desc = data.desc;
+          break;
+        }
+        i = i+1;
+      }
+      
+    }
+
+    return (
+      <div className="App">
+      
+      //...중략
+      
+       <TOC 
+          onChangePage={
+            function(id){
+                this.setState({
+                mode:'read',
+                selected_content_id: Number(id)
+              });
+          }.bind(this)}
+
+          data={this.state.contents}>
+        </TOC>
+
+```
+  
+ #### TOC.js
+ ```javascript
+ import React, { Component } from "react";
+
+class TOC extends Component{
+  render(){
+    var data = this.props.data;
+    var i = 0;
+    var lists = [];
+    while(i < data.length){
+      //여러개의 element를 자동으로 생성할 경우 
+      //각각 key라는 props를 갖고 있어야 한다
+      lists.push(
+        <li key={data[i].id}>
+          <a href={"/content/" + data[i].id}
+            data-id = {data[i].id}
+            onClick={function(e){
+              e.preventDefault();
+              this.props.onChangePage(e.target.dataset.id);
+            }.bind(this)}
+            >{data[i].title}
+          </a>
+        </li>);
+      i += 1;
+    }
+    return(
+      lists
+    );
+  }
+}
+
+export default TOC;
+ ```
 
   
 -----------
