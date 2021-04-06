@@ -16,7 +16,8 @@ ex) onclick(X), onClick(O)
    
      
      
-   mounting event 중 하나인 `constructor()`
+   mounting event 중 하나인 `constructor()`  
+   - 모든 React Component 클래스는 생성자를 가질 때 `super(props)`구문부터 작성해야한다.
    ```javascript
    class App extends Component{
   constructor(props){
