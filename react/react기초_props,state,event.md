@@ -18,8 +18,8 @@ class Subject extends Component{
 
 ## props  
   
-- props란? : 부모컴포넌트가 자식 컴포넌트에게 값을 전달할 때 사용하는 것.
-- 읽기 전용.
+- props란? : 부모컴포넌트가 자식 컴포넌트에게 값을 전달할 때 사용하는 것.  
+- props 값을 바꾸기 위해선 자체적으로는 불가능하고, 부모에서 변경을 할 수 있다.
 
 
 #### index.js
