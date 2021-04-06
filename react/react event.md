@@ -13,7 +13,17 @@ ex) onclick(X), onClick(O)
 
     
     
-    
+   
+     
+     
+   mounting event 중 하나인 `constructor()`
+   ```javascript
+   class App extends Component{
+  constructor(props){
+    super(props);
+    }
+   }
+   ```
    updating event 중 하나인 `shouldComponentUpdate()`.
   ```javascript
   //변화가 있을 때만 렌더링하도록
@@ -28,4 +38,4 @@ ex) onclick(X), onClick(O)
    
  ## 참고자료  
  - 리액트 교과서
- -  
+ - 생활코딩
