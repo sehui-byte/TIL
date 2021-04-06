@@ -15,11 +15,15 @@ class Subject extends Component{
   }
 }
 ```  
-
-## props  
   
+    
+`props`와 `state` 모두 `render()`호출을 유발한다.
+  
+  
+## props  
+ 
 - props란? : 부모컴포넌트가 자식 컴포넌트에게 값을 전달할 때 사용하는 것.  
-- props 값을 바꾸기 위해선 자체적으로는 불가능하고, 부모에서 변경을 할 수 있다.
+- read-only : props 값을 바꾸기 위해선 자체적으로 불가능(컴포넌트 내부에서 수정 불가능)하고, 부모에서 변경을 할 수 있다.
 
 
 #### index.js
