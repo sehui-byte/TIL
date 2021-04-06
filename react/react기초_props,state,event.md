@@ -24,6 +24,7 @@ class Subject extends Component{
  
 - props란? : 부모컴포넌트가 자식 컴포넌트에게 값을 전달할 때 사용하는 것.  
 - read-only : props 값을 바꾸기 위해선 자체적으로 불가능(컴포넌트 내부에서 수정 불가능)하고, 부모에서 변경을 할 수 있다.
+- 상위 컴포넌트에서 `<컴포넌트 이름 props이름="값">`으로 정의하고, 하위 컴포넌트에선 `{this.props.props이름}`으로 사용할 수 있다.
 
 
 #### index.js
