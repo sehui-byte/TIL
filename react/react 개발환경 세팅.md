@@ -13,7 +13,7 @@ npx create-react-app [project name]
 
 //생성된 프로젝트 디렉토리로 이동
 //서버 실행
-npm run server
+npm start
 
 //실제 서비스할때 사용
 npm run build
