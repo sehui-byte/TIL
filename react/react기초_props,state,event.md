@@ -109,8 +109,7 @@ export default App;
 ## State
   
 - state란? : 컴포넌트 자신이 가지고 있는 값. 
-- 상위컴포넌트의 state를 이용해서 하위컴포넌트에게 전달할 수 있다.
-
+- 하위컴포넌트가 상위컴포넌트의 state를 수정하려고 할 때 (`setState()`)에 이벤트를 사용하여 수정할 수 있다.
 ```javascript
 ...
 
