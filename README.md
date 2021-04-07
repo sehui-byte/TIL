@@ -75,7 +75,8 @@
 ## Vue.js 기초
 - [세팅 작업](https://github.com/sehui-byte/TIL/blob/main/Vue.js/Setting%EC%9E%91%EC%97%85.md) - VSCode, node.js 
   
-  
+## JavaScript, TypeScript, React
+- [ES6 - Spread Operator](https://paperblock.tistory.com/62)
   
 -------------
 ## 기타
