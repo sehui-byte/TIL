@@ -11,12 +11,15 @@
 ```
 npx create-react-app [project name]
 
-//생성된 프로젝트 디렉토리로 이동
-//서버 실행
+//생성된 프로젝트 디렉토리로 이동 후
+//실행
 npm start
 
 //실제 서비스할때 사용
 npm run build
+
+//package.json 생성
+npm init
 ```
     
     
@@ -24,6 +27,28 @@ npm run build
 ## npm, npx 란?
  - **npm** : node.js로 만들어진 모듈을 웹에서 받아서 설치하고 관리해주는 프로그램.
  - **npx** : npm의 5.2.0 버전부터 새로 추가된 도구. **일회성으로** 원하는 패키지를 npm 레지스트리에 접근해서 실행시키고 설치하는 실행 도구.
+  
+    
+## npm 명령어    
+```
+//package.json을 만드는 명령어
+npm init
+
+//패키지 설치
+npm install [package]@[version]
+
+//설치된 패키지 업데이트
+npm update
+
+//중복된 패키지 정리
+npm dedupe
+
+//node_modules의 위치를 알려준다
+npm root
+
+//패키지 조회
+npm ls
+```
     
    
  ----------------
@@ -83,3 +108,4 @@ class App extends Component{
  - [React에서 화면을 만드는 흐름](https://1nnovator.tistory.com/49)
  - [React에는 html이 없나요?](https://ljh86029926.gitbook.io/coding-apple-react/1/where-is-html)
  - [React의 동작원리](https://penguingoon.tistory.com/213)
+ - [npm 명령어](https://www.zerocho.com/category/NodeJS/post/58285e4840a6d700184ebd87)
