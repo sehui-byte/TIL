@@ -18,3 +18,4 @@ tsc
  
  ## 참고자료
  - https://mwoo526.tistory.com/2
+ - https://www.staging-typescript.org/tsconfig
