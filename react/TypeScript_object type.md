@@ -7,19 +7,19 @@
 ```typescript
 
 const obj = { 
-  name:string; 
-  id: number;
-}
+  name:string,
+  id: number
+};
 
 interface obj2 = {
-  name: string;
-  id: number;
-}
+  name: string,
+  id: number
+};
 
 const a: obj = {
-  name: string;
-  id: number;
-}
+  name: string,
+  id: number
+};
 ```
   
  --------------
