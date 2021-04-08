@@ -15,6 +15,8 @@ const element = <h1>Hello, {name} </h1>;
   모든 항목은 렌더링 되기 전에 문자열로 변환된다.  
   
 - react element를 생성한다. (Babel은 JSX를 `React.createElement()` 호출로 컴파일한다.)
+- createElement(elementName, data, child);
+  - element
   react는 이 객체를 읽어서 DOM을 구성하고 최신상태로 유지하는 데 사용한다.
 ```javascript
 const element = (<h1 className = "greeting"> Hello, world! </h1>);
