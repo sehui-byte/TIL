@@ -16,7 +16,7 @@ const element = <h1>Hello, {name} </h1>;
   
 - react element를 생성한다. (Babel은 JSX를 `React.createElement()` 호출로 컴파일한다.)
 - createElement(elementName, data, child);
-  - element
+- element
   react는 이 객체를 읽어서 DOM을 구성하고 최신상태로 유지하는 데 사용한다.
 ```javascript
 const element = (<h1 className = "greeting"> Hello, world! </h1>);
@@ -25,9 +25,6 @@ const element = React.createElement('h1', {className: 'greeting'}, 'Hello, world
 
 ```
 
-### 그렇다면 element는 뭔데?  
-- **element는 react app의 가장 작은 단위**라고 한다.
-- component와 혼동될 수 있는데, **element는 component의 구성요소**라고 한다.
 
 ------------------
 
