@@ -76,7 +76,24 @@
 - [세팅 작업](https://github.com/sehui-byte/TIL/blob/main/Vue.js/Setting%EC%9E%91%EC%97%85.md) - VSCode, node.js 
   
 ## JavaScript, TypeScript, React
-- [ES6 - Spread Operator](https://paperblock.tistory.com/62)
+
+### React
+- [React 개발환경 세팅](https://github.com/sehui-byte/TIL/blob/main/react/react%20%EA%B0%9C%EB%B0%9C%ED%99%98%EA%B2%BD%20%EC%84%B8%ED%8C%85.md)
+  - vscode, node.js, npm
+- [React - Props, state, event](https://github.com/sehui-byte/TIL/blob/main/react/react%EA%B8%B0%EC%B4%88_props%2Cstate%2Cevent.md)
+- [React - event 기초 정리](https://github.com/sehui-byte/TIL/blob/main/react/react%20event.md)
+- [JSX란?](https://github.com/sehui-byte/TIL/blob/main/react/JSX.md)
+
+### JavaScript
+- [참고자료 -ES6의 Spread Operator](https://paperblock.tistory.com/62)
+- [비동기 처리 - Promise, await, callback function](https://github.com/sehui-byte/TIL/blob/main/react/javascript_promise%2C%20await.md)
+- 
+
+### TypeScript
+- [TypeScript 시작하기](https://github.com/sehui-byte/TIL/blob/main/react/typescript%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0.md)
+- [TypeScript 적용하여 React 프로젝트 생성하기](https://github.com/sehui-byte/TIL/blob/main/react/TypeScript-react%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%83%9D%EC%84%B1.md)
+- [TypeScript의 Object](https://github.com/sehui-byte/TIL/blob/main/react/TypeScript_object%20type.md)
+
   
 -------------
 ## 기타
