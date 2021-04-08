@@ -22,10 +22,33 @@ class Subject extends Component{
   
 ## props  
  
-- props란? : 부모컴포넌트가 자식 컴포넌트에게 값을 전달할 때 사용하는 것.  
+- props란? : **부모컴포넌트가 자식 컴포넌트에게 값을 전달할 때 사용하는 것**.  
 - read-only : props 값을 바꾸기 위해선 자체적으로 불가능(컴포넌트 내부에서 수정 불가능)하고, 부모에서 변경을 할 수 있다.
-- 상위 컴포넌트에서 `<컴포넌트 이름 props이름="값">`으로 정의하고, 하위 컴포넌트에선 `{this.props.props이름}`으로 사용할 수 있다.
+- 상위 컴포넌트에서 `<컴포넌트 이름 props이름="값">`으로 정의하고, 하위 컴포넌트에선 `{this.props.props이름}`으로 사용할 수 있다.  
+  
+**아래는 react공식문서에 있는 예시**이다. 이것을 보면 props가 어떤식으로 쓰이는지 좀더 알 수 있다.
+```javascript
+function Welcome(props) {
+  return <h1>Hello, {props.name}</h1>;
+}
 
+function App() {
+  return (
+    <div>
+      <Welcome name="Sara" />
+      <Welcome name="Cahal" />
+      <Welcome name="Edite" />
+    </div>
+  );
+}
+
+ReactDOM.render(
+  <App />,
+  document.getElementById('root')
+);
+```  
+  
+아래부턴 **생활코딩 강좌**를 들으면서 작성한 코드이다.
 
 #### index.js
 ```javascript
@@ -109,7 +132,7 @@ export default App;
 
 ## State
   
-- state란? : 컴포넌트 자신이 가지고 있는 값. 
+- state란? : **컴포넌트 자신이 가지고 있는 값**. 
 - 하위컴포넌트가 상위컴포넌트의 state를 수정하려고 할 때 (`setState()`)에 이벤트를 사용하여 수정할 수 있다.
 ```javascript
 ...
@@ -289,3 +312,4 @@ export default TOC;
 - [react 공식 문서](https://ko.reactjs.org/docs/faq-state.html)
 - [javascript this binding 정리](https://medium.com/sjk5766/javascript-this-binding-%EC%A0%95%EB%A6%AC-ae84e2499962)
 - [js- 실행 컨텍스트](https://poiemaweb.com/js-execution-context)
+- [react- component와 props](https://ko.reactjs.org/docs/components-and-props.html)
