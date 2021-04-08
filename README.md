@@ -95,6 +95,7 @@
 - [TypeScript 시작하기](https://github.com/sehui-byte/TIL/blob/main/react/typescript%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0.md)
 - [TypeScript 적용하여 React 프로젝트 생성하기](https://github.com/sehui-byte/TIL/blob/main/react/TypeScript-react%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%83%9D%EC%84%B1.md)
 - [TypeScript의 Object](https://github.com/sehui-byte/TIL/blob/main/react/TypeScript_object%20type.md)
+- [참고자료 - TypeScript의 postfix !](https://wooooooak.github.io/typescript/2018/12/11/nonNullAssertionCheck/)
 
   
 -------------
