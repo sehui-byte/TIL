@@ -1,12 +1,14 @@
 
 ## JSX란?  
 - javascript를 확장한 문법.
+- JSX는 React elements를 생성한다. React는 JSX 사용이 필수는 아니지만, UI관련 작업을 할 때 시각적으로 더 도움이 된다고 한다.
 - JSX에서 중괄호`{}`를 이용하여 자바스크립트 구문을 실행시킬 수 있다.
 
 ```javascript
 const name = "JSX";
 const element = <h1>Hello, {name} </h1>;
 ```
+![image](https://user-images.githubusercontent.com/64109506/113949650-b664e700-984a-11eb-856d-c65662ed9510.png)
   
 - XSS(cross-site-scripting) 공격 방지.
   React DOM은 JSX에 삽입된 모든 값을 렌더링하기 전에 escape하므로 에플리케이션에서 명시적으로 작성되지 않은 내용은 주입하지 않는다.
@@ -21,8 +23,12 @@ const element = React.createElement('h1', {className: 'greeting'}, 'Hello, world
 
 ```
 
+### 그렇다면 element는 뭔데?  
+- **element는 react app의 가장 작은 단위**라고 한다.
+- component와 혼동될 수 있는데, **element는 component의 구성요소**라고 한다.
 
 ------------------
 
 ## 참고자료
 - [react공식 문서](https://ko.reactjs.org/docs/introducing-jsx.html)
+- [React공식문서-Element Rendering](https://ko.reactjs.org/docs/rendering-elements.html)
