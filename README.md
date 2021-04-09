@@ -89,7 +89,7 @@
 ### JavaScript
 - [참고자료 -ES6의 Spread Operator](https://paperblock.tistory.com/62)
 - [비동기 처리 - Promise, await, callback function](https://github.com/sehui-byte/TIL/blob/main/react/javascript_promise%2C%20await.md)
-- 
+- [참고자료 - Javascript 버블링과 캡처링](https://ko.javascript.info/bubbling-and-capturing)
 
 ### TypeScript
 - [TypeScript 시작하기](https://github.com/sehui-byte/TIL/blob/main/react/typescript%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0.md)
