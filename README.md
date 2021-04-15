@@ -55,7 +55,7 @@
 - [오라클 랜덤추출 DBMS_RANDOM 사용하기](https://github.com/sehui-byte/TIL/blob/main/DB/ORACLE/%EC%98%A4%EB%9D%BC%ED%81%B4%20%EB%9E%9C%EB%8D%A4%20%EC%B6%94%EC%B6%9C%20DBMS_RANDOM.md)
   
 ## Java
-  
+
 - [open api 이용하여 json으로 받은 데이터 파싱하기](https://github.com/sehui-byte/TIL/blob/main/Java/json%ED%8C%8C%EC%8B%B1.md)  
 - [참고자료 - bit shift연산자를 사용하여 byte형변환](http://egloos.zum.com/littletrue/v/4096524)
 - [java8-time패키지](https://github.com/sehui-byte/TIL/blob/main/Java/java8-time%ED%8C%A8%ED%82%A4%EC%A7%80.md)
@@ -90,6 +90,7 @@
 - [참고자료 -ES6의 Spread Operator](https://paperblock.tistory.com/62)
 - [비동기 처리 - Promise, await, callback function](https://github.com/sehui-byte/TIL/blob/main/react/javascript_promise%2C%20await.md)
 - [참고자료 - Javascript 버블링과 캡처링](https://ko.javascript.info/bubbling-and-capturing)
+- [참고자료 - Javscript singleton : ES6, ES7](https://heecheolman.tistory.com/40)
 
 ### TypeScript
 - [TypeScript 시작하기](https://github.com/sehui-byte/TIL/blob/main/react/typescript%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0.md)
