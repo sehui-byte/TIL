@@ -1,7 +1,10 @@
 
 ### gradle 설치 
 
-[링크](https://gradle.org/releases/)에서 gradle을 설치한다.
+[링크](https://gradle.org/releases/)에서 gradle을 설치한다.  
+환경변수 : `GRADLE_HOME`  
+
+`path`에 추가한다.
 
 ```
 gradle -v
