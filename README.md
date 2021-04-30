@@ -85,6 +85,7 @@
 - [React - event 기초 정리](https://github.com/sehui-byte/TIL/blob/main/react/react%20event.md)
 - [JSX란?](https://github.com/sehui-byte/TIL/blob/main/react/JSX.md)
 - [참고자료 - React의 기본 component를 알아보자](https://medium.com/little-big-programming/react%EC%9D%98-%EA%B8%B0%EB%B3%B8-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%EB%A5%BC-%EC%95%8C%EC%95%84%EB%B3%B4%EC%9E%90-92c923011818)
+- [react 환경변수](https://github.com/sehui-byte/TIL/blob/main/react/react%ED%99%98%EA%B2%BD%EB%B3%80%EC%88%98.md)
 
 ### JavaScript
 - [참고자료 -ES6의 Spread Operator](https://paperblock.tistory.com/62)
