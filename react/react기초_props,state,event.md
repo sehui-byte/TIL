@@ -1,8 +1,16 @@
+##### <목차>
 
- 
+- component
+- props
+- state
+
+--------
+
+
+
 ## Component  
 
-```javascript
+```
 class Subject extends Component{
   render(){
     return (
@@ -14,20 +22,37 @@ class Subject extends Component{
     );
   }
 }
-```  
-  
-    
+```
+
 `props`와 `state` 모두 `render()`호출을 유발한다.
-  
-  
-## props  
- 
+
+
+
+# props  
+
 - props란? : **부모컴포넌트가 자식 컴포넌트에게 값을 전달할 때 사용하는 것**.  
-- read-only : props 값을 바꾸기 위해선 자체적으로 불가능(컴포넌트 내부에서 수정 불가능)하고, 부모에서 변경을 할 수 있다.
+
+- **read-only** : props 값을 바꾸기 위해선 자체적으로 불가능(컴포넌트 내부에서 수정 불가능)하고, 부모에서 변경을 할 수 있다.
+
 - 상위 컴포넌트에서 `<컴포넌트 이름 props이름="값">`으로 정의하고, 하위 컴포넌트에선 `{this.props.props이름}`으로 사용할 수 있다.  
   
+  > 공식문서에서는 아래와 같이, props는 pure function과 같이 동작해야 된다고 한다.
+  >
+  > **All React components must act like pure functions with respect to their props.**
+
+```react
+function withdraw(account, amount) {
+  account.total -= amount;
+}
+```
+
+위 예시 코드는 impure하다. 왜냐하면 input값을 변경하기 때문이다.
+
+
+
 **아래는 react공식문서에 있는 예시**이다. 이것을 보면 props가 어떤식으로 쓰이는지 좀더 알 수 있다.
-```javascript
+
+```react
 function Welcome(props) {
   return <h1>Hello, {props.name}</h1>;
 }
@@ -46,12 +71,16 @@ ReactDOM.render(
   <App />,
   document.getElementById('root')
 );
-```  
-  
+```
+
+
+
+
+
 아래부턴 **생활코딩 강좌**를 들으면서 작성한 코드이다.
 
 #### index.js
-```javascript
+```react
 ReactDOM.render(
   <React.StrictMode>
     <App />
@@ -62,7 +91,7 @@ ReactDOM.render(
 ```
 
 #### App.js
-```javascript
+```react
 import React, { Component } from 'react';
 import './App.css';
 
@@ -93,18 +122,17 @@ class App extends Component{
 export default App;
 
 ```
-  
-   
-     
-     
-위의 소스코드는 App.js에 여러 개의 Components를 만들어 넣었다.   
+
+ 
+
+위의 소스코드는 App.js에 여러 개의 `Components`를 만들어 넣었다.   
 이를 아래의 소스코드와 같이 쓰면,  
-하나의 파일에 다 담지 않고 여러개의 파일로 쪼개서 각 컴포넌트를 담고, App.js에 import하여 사용할 수 있다.
+하나의 파일에 다 담지 않고 여러개의 파일로 쪼개서 각 컴포넌트를 담고, App.js에 `import`하여 사용할 수 있다.
 
 #### App.js  
-  
+
 아래와 같이 import 해줘야 한다.
-```javascript
+```react
 import React, { Component } from 'react';
 import Subject from "./components/Subject";
 import TOC from "./components/TOC";
@@ -127,14 +155,15 @@ class App extends Component{
 
 export default App;
 
-```  
-  
+```
 
-## State
-  
+
+
+# State
+
 - state란? : **컴포넌트 자신이 가지고 있는 값**. 
 - 하위컴포넌트가 상위컴포넌트의 state를 수정하려고 할 때 (`setState()`)에 이벤트를 사용하여 수정할 수 있다.
-```javascript
+```react
 ...
 
 class App extends Component{
@@ -167,14 +196,14 @@ export default App;
 ![image](https://user-images.githubusercontent.com/64109506/113539626-2b50da80-9619-11eb-8aae-26f9e53584ba.png)  
 
   
-  
- -------------------------------
- 
+
+-------------------------------
+
  ## 이벤트  
-   
+
  - e.preventDefault() : a태그나 submit태그(페이지 이동이나 페이지 새로 실행되는 등...) 같은 경우 기본적인 동작을 하는데 `preventDefault()`는 이러한 기본 동작을 막아준다.
  - this와 bind() : JS에서 바인딩하지 않고 함수 호출시에 `this`는 `undefined`가 되기 때문에 바인딩을 해주어야 한다.
- ```javascript
+ ```react
   <header>
     <h1><a href="/" onClick={function(e){
       e.preventDefault();
@@ -186,10 +215,10 @@ export default App;
     {this.state.subject.sub}
  </header> 
  ```
- 
+
  ### JavaScript에서 this란?  
  인터프리터에 의해 **현재 실행되는 자바스크립트 코드**를 **실행컨텍스트**(execution context)라고 한다. 자바스크립트 내부에서는 이러한 실행 컨텍스트를 stack으로 관리하고 있고, 실행되는 시점에 자주 변경되는 실행 컨텍스트를 this가 가리키고 있다.
- 
+
  - 기본적으로 this는 전역객체를 가리킨다.
    - node환경 : global 객체
    - browser : window 객체
@@ -197,18 +226,18 @@ export default App;
 - 일반적인 함수 내부에서 this를 호출하면 전역객체를 가리킨다.
 - 만약 함수 내부 or 외부에서 strict모드를 사용한다면 함수 내부에서 this는 전역객체를 바인딩하지 않는다.
 - 객체 내부의 메소드에서 this를 바인딩할 경우, 그 객체 자신을 가리키게 된다.
-   
+  
     
 
 ## setState()    
 
 컴포넌트 생성이 끝난 후에 **동적으로 state 값을 바꾸려면** `setState()`메서드를 사용해야 한다.    
-  
-  
+
+
 아래 코드는 TOC의 `<li>`를 클릭하면 해당 번호에 해당하는 `contents` 값이 하단에 출력되는 코드이다.  
- 
+
 #### App.js
-```javascript
+```react
 import React, { Component } from 'react';
 import Subject from "./components/Subject";
 import TOC from "./components/TOC";
@@ -269,9 +298,9 @@ class App extends Component{
         </TOC>
 
 ```
-  
+
  #### TOC.js
- ```javascript
+ ```react
  import React, { Component } from "react";
 
 class TOC extends Component{
@@ -304,7 +333,7 @@ class TOC extends Component{
 export default TOC;
  ```
 
-  
+
 -----------
 ### 참고자료 
 - 생활코딩 react 강좌
