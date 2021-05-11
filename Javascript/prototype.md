@@ -54,7 +54,7 @@ console.log(lee.nose);
 
 ```
 
-kim, lee 객체가 eyes나 nose를 직접 가지고 있지 않기 때문에 eyes나 nose 속성을 찾을 때까지 상위 프로토타입을 검색한다.
+kim, lee 객체가 eyes나 nose를 직접 가지고 있지 않기 때문에 eyes나 nose 속성을 찾을 때까지 **상위 프로토타입을 검색**한다.
 
 ```javascript
 function Person(){};
@@ -90,8 +90,13 @@ console.log(student2.school);//java high school
 #### **프로토타입 체인(prototype chain)** 
 
 - 프로토타입 체인이란? `__proto__`속성을 통해 상위 프로토타입과 연결되어있는 형태.
+- 프로토타입 객체는 **상위 프로토타입 객체로부터 메소드와 속성을 상속**받을 수 있다. 
 
-- 프로토타입 객체는 상위 프로토타입 객체로부터 메소드와 속성을 상속받을 수 있다. 
+
+
+
+
+
 
 ----
 
