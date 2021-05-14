@@ -6,6 +6,8 @@
 
 - 메서드 내부 코드에서 사용된 `this`는 해당 메서드를 호출한 객체로 바인딩된다.
 
+  - *메서드 : 객체의 property가 함수일 때.*
+
 - 자바스크립트에서 <u>함수를 호출하면 해당 함수 내부 코드에서 사용된 `this`는 전역객체에 바인딩</u>된다.
 
   브라우저에서 자바스크립트를 실행하는 경우 전역객체는 `window`이다.
@@ -21,7 +23,7 @@ var value = 100;
 var myObj = {
   name : 'myObj',
   value : 1,
-  func1: function(){
+  func1: function(){//func1 : 메서드
     var that = this;
     console.log(that.name); //호출한 객체로 바인딩되어 this는 myObj가 됨
     console.log('that ' + that.value);
