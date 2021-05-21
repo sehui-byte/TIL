@@ -8,7 +8,7 @@
 
   - *메서드 : 객체의 property가 함수일 때.*
 
-- 자바스크립트에서 <u>함수를 호출하면 해당 함수 내부 코드에서 사용된 `this`는 전역객체에 바인딩</u>된다.
+- 자바스크립트에서 <u>함수를 호출하면 해당 함수 내부 코드에서 사용된 `this`는 전역객체에 바인딩</u>된다. `strict mode`에서는 함수 호출시 `this`가 `undefined`이다.
 
   브라우저에서 자바스크립트를 실행하는 경우 전역객체는 `window`이다.
 
@@ -57,6 +57,8 @@ myObj.func1();
 
 
 
+### apply(), call()
+
 
 
 ### bind()
@@ -72,3 +74,5 @@ myObj.func1();
 ### 참고자료
 
 - 인사이드 자바스크립트
+
+- https://velog.io/@imacoolgirlyo/JS-JavaScript-Function-Invocation%EC%99%80-this
