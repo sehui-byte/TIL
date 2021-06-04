@@ -22,8 +22,10 @@
 ------
 ## Spring
 #### 2021-01-06 spring-study 시작
-해당 레파지토리에 매일 `spring`공부한 것을 올리기로 하여 `TIL`레파지토리에 한동안 올리지 않을 수도 있다.   
-`spring` 공부는 아마 `spring-study`레파지토리에 기록할 듯 싶고, 한 부분에 대한 정리가 어느정도 완료되면 `내 깃허브블로그`에 업로드할 예정이다.
+> 해당 레파지토리에 매일 `spring`공부한 것을 올리기로 하여 `TIL`레파지토리에 한동안 올리지 않을 수도 있다.   
+> `spring` 공부는 아마 `spring-study`레파지토리에 기록할 듯 싶고, 한 부분에 대한 정리가 어느정도 완료되면 `내 깃허브블로그`에 업로드할 예정이다.
+
+- [파일 다운로드시 한글 파일명 깨질 때](https://github.com/sehui-byte/TIL/blob/main/Java/java_%ED%8C%8C%EC%9D%BC%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%EC%8B%9C%20%ED%95%9C%EA%B8%80%EC%A0%9C%EB%AA%A9%20%EC%9D%B8%EC%BD%94%EB%94%A9%20%EA%B9%A8%EC%A7%88%EB%95%8C.md)
 
 ### Mybatis
 - [부등호 사용하여 쿼리문 작성시 발생하는 에러 해결하는 법](https://github.com/sehui-byte/TIL/tree/main/Spring)
@@ -57,8 +59,9 @@
 ## Java
 
 - [open api 이용하여 json으로 받은 데이터 파싱하기](https://github.com/sehui-byte/TIL/blob/main/Java/json%ED%8C%8C%EC%8B%B1.md)  
-- [참고자료 - bit shift연산자를 사용하여 byte형변환](http://egloos.zum.com/littletrue/v/4096524)
 - [java8-time패키지](https://github.com/sehui-byte/TIL/blob/main/Java/java8-time%ED%8C%A8%ED%82%A4%EC%A7%80.md)
+- [java-비트시프트연산자](https://github.com/sehui-byte/TIL/blob/main/Java/java-bit%20shift%EC%97%B0%EC%82%B0%20%EB%B0%8F%20%ED%99%9C%EC%9A%A9.md)
+- [참고자료 - bit shift연산자를 사용하여 byte형변환](http://egloos.zum.com/littletrue/v/4096524)
 - [참고자료-java에서 싱글톤 패턴을 사용하는 이유와 주의점](https://elfinlas.github.io/2019/09/23/java-singleton/)
 - [참고자료 - ArrayBlockingQueue vs LinkedBlockingQueue](https://stackoverflow.com/questions/35967792/when-to-prefer-linkedblockingqueue-over-arrayblockingqueue)
   
@@ -90,6 +93,7 @@
   - vscode, node.js, npm
 - [React - Props, state, event](https://github.com/sehui-byte/TIL/blob/main/react/react%EA%B8%B0%EC%B4%88_props%2Cstate%2Cevent.md)
 - [React - event 기초 정리](https://github.com/sehui-byte/TIL/blob/main/react/react%20event.md)
+- [mobX](https://github.com/sehui-byte/TIL/blob/main/react/mobX.md)
 - [JSX란?](https://github.com/sehui-byte/TIL/blob/main/react/JSX.md)
 - [참고자료 - React의 기본 component를 알아보자](https://medium.com/little-big-programming/react%EC%9D%98-%EA%B8%B0%EB%B3%B8-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%EB%A5%BC-%EC%95%8C%EC%95%84%EB%B3%B4%EC%9E%90-92c923011818)
 - [react 환경변수](https://github.com/sehui-byte/TIL/blob/main/react/react%ED%99%98%EA%B2%BD%EB%B3%80%EC%88%98.md)
