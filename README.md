@@ -50,6 +50,7 @@
 ## Network
 
 - [사용중인 포트 강제로 종료시키는 법](https://github.com/sehui-byte/TIL/commit/6f6f84dd20f412610c00b311e27f972496ad9562)
+- [window Hosts파일이란?](https://github.com/sehui-byte/TIL/blob/main/Network/window%20Hosts%ED%8C%8C%EC%9D%BC.md)
 - [참고자료 - port란 무엇인가](https://jwprogramming.tistory.com/26)
 - [참고자료 - socket : client socket에 bind()가 없는 이유](https://blog.naver.com/rev7707/10005157701)
 
@@ -93,6 +94,8 @@
 
 ## JavaScript
 
+- [ESLint란](https://github.com/sehui-byte/TIL/blob/main/Javascript/eslint%EB%9E%80.md)
+
 ### React
 - [React 개발환경 세팅](https://github.com/sehui-byte/TIL/blob/main/react/react%20%EA%B0%9C%EB%B0%9C%ED%99%98%EA%B2%BD%20%EC%84%B8%ED%8C%85.md)
   - vscode, node.js, npm
@@ -108,8 +111,18 @@
 - [참고자료 - React에서 return과 render의 차이](https://stackoverflow.com/questions/49078679/what-is-the-difference-between-render-and-return-in-reactjs)
 
 ### JavaScript
+
+- [ES5와 ES6, ES7 특징 정리](https://github.com/sehui-byte/TIL/blob/main/Javascript/ES5%2C%20ES6.md)
+- [javascript_array](https://github.com/sehui-byte/TIL/blob/main/Javascript/JavaScript_Array.md)
+- [javascript_destructuring](https://github.com/sehui-byte/TIL/blob/main/Javascript/%5BJavaScript%5D%20Destructuring.md)
+- [javascript_실행컨텍스트](https://github.com/sehui-byte/TIL/blob/main/Javascript/execution%20context%EA%B0%9C%EB%85%90.md)
+- [javascript_hoisting](https://github.com/sehui-byte/TIL/blob/main/Javascript/hoisting.md)
+- [비동기 처리 - Promise, await](https://github.com/sehui-byte/TIL/blob/main/Javascript/javascript_promise%2C%20await.md)
+- [javascript_프로토타입](https://github.com/sehui-byte/TIL/blob/main/Javascript/prototype.md)
+- [javascript_클로저](https://github.com/sehui-byte/TIL/blob/main/Javascript/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%2Bclosure.md)
+- [javascript_this바인딩](https://github.com/sehui-byte/TIL/blob/main/Javascript/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8_this%EB%B0%94%EC%9D%B8%EB%94%A9.md)
+
 - [참고자료 -ES6의 Spread Operator](https://paperblock.tistory.com/62)
-- [비동기 처리 - Promise, await, callback function](https://github.com/sehui-byte/TIL/blob/main/react/javascript_promise%2C%20await.md)
 - [참고자료 - Javascript 버블링과 캡처링](https://ko.javascript.info/bubbling-and-capturing)
 - [참고자료 - Javscript singleton : ES6, ES7](https://heecheolman.tistory.com/40)
 
@@ -119,14 +132,26 @@
 
 - [TypeScript 시작하기](https://github.com/sehui-byte/TIL/blob/main/react/typescript%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0.md)
 - [TypeScript 적용하여 React 프로젝트 생성하기](https://github.com/sehui-byte/TIL/blob/main/react/TypeScript-react%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%83%9D%EC%84%B1.md)
-- [TypeScript의 Object](https://github.com/sehui-byte/TIL/blob/main/react/TypeScript_object%20type.md)
+- [TypeScript의 Object타입](https://github.com/sehui-byte/TIL/blob/main/Javascript/TypeScript_object%20type.md)
 - [참고자료 - TypeScript의 postfix !](https://wooooooak.github.io/typescript/2018/12/11/nonNullAssertionCheck/)
+
+
+
+
+
+## Web
+
+- [csrf token이란](https://github.com/sehui-byte/TIL/blob/main/web/csrf%20token%EC%9D%B4%EB%9E%80.md)
+
+
 
 
 
 ## Vue.js 기초
 
 - [세팅 작업](https://github.com/sehui-byte/TIL/blob/main/Vue.js/Setting%EC%9E%91%EC%97%85.md) - VSCode, node.js 
+
+
 
 
 
