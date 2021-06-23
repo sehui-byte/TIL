@@ -1,6 +1,6 @@
 # Spring이란?
 
-# <Spring>
+
 
 ## 스프링 프레임워크의 특징
 
@@ -9,12 +9,16 @@
 - **AOP(Aspect Oriented Programming) →** 높은 응집도
 - **컨테이너(Container) →** 낮은 결합도
 
+
+
 ### **결합도(Coupling)가 낮은 프로그램을 구현하기 위한 방법**
 
 - 다형성 → `인터페이스`로 구현
 - `Factory`디자인패턴 이용
 
 - **결합도(Coupling)란?** 하나의 클래스가 다른 클래스와 얼마나 연결되어있는지 정도를 나타내는 표현.
+
+
 
 ## DI(Dependency Injection)
 
@@ -57,6 +61,8 @@ a.setB(b); //부품을 꽂아넣는다 ->injection
 - **단점 : 부품을 조립해야만한다.** → `setter()`를 누군가 해줘야 한다.
     - `setter injection`과 `construction injection`이 있다.
 
+
+
 ## IoC컨테이너
 
 - **IoC : 제어의 역행**
@@ -64,9 +70,15 @@ a.setB(b); //부품을 꽂아넣는다 ->injection
 - 마치 주문서에 따라 부품을 생성하고 부품을 조립하여 `Container`에 담는 것-이라고 이해할 수 있다.
 - 즉 **컨테이너가 개발자를 대신하여 객체의 생성과 객체들 사이의 의존관계를 처리**해준다.
 
----
 
----
+
+
+
+
+
+----
+
+
 
 # 참고자료
 
