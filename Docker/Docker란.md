@@ -36,11 +36,22 @@
 
 
 
+
+
 ### 쿠버네티스란?
 
-- 컨테이너 오케스트레이션 툴
+- 구글에서 만든 컨테이너 오케스트레이션 툴
 
-- 도커를 기반으로 컨테이너를 관리하는 서비스. 
+- **도커를 기반으로 컨테이너를 관리하는 서비스**. (컨테이너 스케줄링 문제로 컨테이너 관리 도구가 주목을 받음.) 
+- 여러 host(= node in k8s)를 묶어 클러스터를 구성하고, 컨테이너를 적절한 위치에 배포하고, 컨테이너가 죽으면 자동으로 복구하며, 필요에 따라 컨테이너를 매끄럽게 추가,복제,업데이트,롤백 등을 할 수 있다.
+  - **쿠버네티스 클러스터**란?
+    - 컨테이너화된 애플리케이션을 실행하기 위한 일련의 노드 머신. 쿠버네티스를 실행중이라면 클러스터를 실행하고 있는 것이다.
+
+![img](https://raw.githubusercontent.com/1ambda/1ambda.github.io/master/assets/images/infra-kubernetes/intro/physical-layout.png)
+
+하나의 k8s클러스터는 하나의 master와 여러개의 node로 구성되어 있다. 개발자는 `kubectl`을 이용하여 master에 명령을 내리고, node를 관리한다. 사용자는 node에 접속해 서비스를 이용한다.
+
+
 
 
 
@@ -59,3 +70,9 @@
 - [가상화란 무엇인가](https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html)
 
 - [Window에서 도커 설치하기](https://goddaehee.tistory.com/251)
+
+- https://boying-blog.tistory.com/29
+
+- [쿠버네티스 소개](https://www.popit.kr/kubernetes-introduction/)
+
+- https://www.redhat.com/ko/topics/containers/what-is-a-kubernetes-cluster

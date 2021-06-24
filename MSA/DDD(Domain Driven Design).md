@@ -38,14 +38,6 @@
 
     
 
-
-
-#### Aggregate(집합)
-
-- aggregate: 각각의 도메인 영역을 대표하는 객체.
-
-
-
 #### Facade
 
 
