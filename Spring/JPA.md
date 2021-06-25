@@ -37,7 +37,7 @@ public class LoginDAOImpl implements LoginDAO {
 
 ### JPA
 
-- JPA (Java Persistence API) : **자바 ORM 기술에 대한 API 표준 명세.**
+- JPA (Java Persistence API) : <u>**자바 ORM 기술에 대한 API 표준 명세.**</u>
 
 - Hibernate, OpenJPA 등이 JPA를 구현한 구현체이다.
 
