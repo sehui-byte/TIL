@@ -61,7 +61,15 @@ public class Student {
 
 
 
+---------
+
+
+
 ### spring-data-JPA
+
+- 개발자는 인터페이스만 작성하고, spring data JPA가 구현 객체를 동적으로 생성해서 주입한다.
+
+
 
 ```yaml
 jpa:
@@ -83,7 +91,11 @@ jpa:
 
 
 
-### JPA 영속성 컨텍스트
+### JPA Persistence Context
+
+- `entity`를 영구히 저장하는 환경.
+
+- 쓰기 지연 SQL 저장소
 
 
 
@@ -91,7 +103,77 @@ jpa:
 
 
 
+
+
+
+
+----------
+
+
+
 ### QuerySDL
+
+- **SQL 쿼리를 메소드 기반으로 작성**할 수 있도록 도와주는 프레임워크.
+  - JPA를 사용하면서 복잡한 조회 쿼리의 경우 `QuerySDL`을 사용하면 편리하다.
+  - 컴파일 타임에 문법 오류를 잡을 수 있고, IDE의 도움을 받을 수 있어 편리하다.
+- `QueryDSL`로 쿼리문을 작성하기 위해 `Q타입 클래스`(QueryDSL전용 객체, prefix 'Q'가 붙는 클래스들 자동생성) 를 사용한다.
+- `JPAQuery` 클래스를 사용하면 `EntityManager`를 통해서 질의가 처리되고, 이때 사용하는 쿼리문은 `JPQL`이다.
+
+
+
+#### QuerySDL - dynamic query
+
+
+
+- **BooleanBuilder**
+  - 조건들을 이어붙여서 where에 넣어주는 방식.
+  - **쿼리의 형태를 예측하기 어렵다**는 단점이 있다.
+
+```java
+public List<Student> findDynamicQuery(String name, String age){
+    BooleanBuilder builder = new BooleanBuilder();
+    
+    if(!StringUtils.isEmpty(name)) {
+        builder.and(student.name.eq(name));
+    }
+
+    if(!StringUtils.isEmpty(age)) {
+        builder.and(student.age.eq(age));
+    }	
+    return queryFactory.selectFrom(student).where(builder).fetch();
+}
+
+```
+
+
+
+- **BooleanExpression**
+
+  - `Querydsl`의 `where`은 `null`이 파라미터로 올 경우 조건문에서 제외한다.
+
+    
+
+아래 코드에서 만약 `age` 값이 없으면 해당 조건 제외.
+
+```java
+public List<Student> findDynamicQueryAdvance(String name, String age) {
+	return queryFactory
+		.selectFrom(student)
+		.where(eqName(name),
+				eqAge(age))
+		.fetch();
+}
+
+private BooleanExpression eqName(String name) {
+	return StringUtils.isEmpty(name) ?  null : student.name.eq(name);
+}
+
+private BooleanExpression eqAge(String age) {
+	return StringUtils.isEmpty(age) ?  null : student.name.eq(age);
+}
+```
+
+
 
 
 
@@ -106,3 +188,13 @@ jpa:
 - https://goddaehee.tistory.com/209
 
 - [lombok 기능정리-getter, setter, MoArgsConstructor, RequiredArgsConstructor, AllArgsConstructor](https://dingue.tistory.com/14)
+
+- https://ict-nroo.tistory.com/117
+
+- http://ojc.asia/bbs/board.php?bo_table=LecJpa&wr_id=341
+
+- https://perfectacle.github.io/2018/01/14/jpa-entity-manager-factory/
+
+- [[Querydsl] 다이나믹 쿼리 사용하기](https://jojoldu.tistory.com/394)
+
+- https://velog.io/@aidenshin/Querydsl-%EB%8F%99%EC%A0%81-%EC%BF%BC%EB%A6%AC
