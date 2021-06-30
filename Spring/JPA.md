@@ -5,7 +5,7 @@
 
 
 
-이전에 MyBatis를 쓴 적이 있었는데 이는 SQL Mapper이다. ORM은 객체를 매핑하는 것이고, SQL Mapper는 쿼리를 매핑하는 것이다.
+이전에 MyBatis를 쓴 적이 있었는데 이는 SQL Mapper이다. **ORM은 객체를 매핑**하는 것이고, SQL Mapper는 쿼리를 매핑하는 것이다.
 
 
 
@@ -58,6 +58,40 @@ public class Student {
     
 }
 ```
+
+
+
+### spring-data-JPA
+
+```yaml
+jpa:
+    hibernate.ddl-auto: none
+    generate-ddl: false
+```
+
+
+
+#### hibername.ddl-auto
+
+- `none`
+- `create-drop`
+- `create`
+- `update`
+- `validate`
+
+
+
+
+
+### JPA 영속성 컨텍스트
+
+
+
+#### Dirty Checking
+
+
+
+### QuerySDL
 
 
 
