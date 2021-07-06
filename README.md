@@ -19,6 +19,7 @@
 - [git branch사용하는 법](https://github.com/sehui-byte/TIL/blob/main/Git/%EB%B8%8C%EB%9E%9C%EC%B9%98%20%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0.md)
 - [git-credential](https://github.com/sehui-byte/TIL/blob/main/Git/git-credential.md)
 - [git-특정 파일 히스토리 삭제하는 법](https://github.com/sehui-byte/TIL/blob/main/Git/git%20-%20%ED%8A%B9%EC%A0%95%20%ED%8C%8C%EC%9D%BC%20%ED%9E%88%EC%8A%A4%ED%86%A0%EB%A6%AC%20%EC%82%AD%EC%A0%9C.md)
+- [git commit 정보 수정하는 법](https://github.com/sehui-byte/TIL/blob/main/Git/git%20commit%20%EC%A0%95%EB%B3%B4%20%EC%88%98%EC%A0%95%ED%95%98%EA%B8%B0.md)
 ------
 ## Spring
 - [spring이란?](https://github.com/sehui-byte/TIL/blob/main/Spring/spring%EC%9D%B4%EB%9E%80.md)
