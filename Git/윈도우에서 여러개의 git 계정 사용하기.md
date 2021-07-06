@@ -6,6 +6,6 @@
 
 
 
-settings
+settings에서
 
 ![image-20210706174141989](image/image-20210706174141989.png)
