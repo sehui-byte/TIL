@@ -93,13 +93,15 @@ kafka-server에서 `topic`이 생성된 것을 확인할 수 있다.
 
 ### Spring Cloud Stream
 
+- 어플리케이션에 메세지 publisher와 subscriber를 쉽게 구축할 수 있는 어노테이션 기반의 프레임워크.
+
 - spring cloud stream application과 middleware시스템(kafka, RabbitMQ ...) 은 중간에 spring cloud stream이 제공하는 `binder`구현체를 두고 통신을 한다.
 
 - `binder`의 경우 **spring이 설정을 읽어 미들웨어에 해당하는 binder를 구현체로 제공**해준다. `RabbitMQ`, `kafka`를 동시에 사용 가능하다.
 
   - **Processor(input, output)**
-  - **Source(ouput)**
-  - **Sink(input)**
+  - **Source(ouput)** : 서비스가 메세지를 발행할 준비가 되면 소스를 사용해서 메세지를 발행한다.
+  - **Sink(input)** : 서비스는 sink를 사용해 큐에서 메세지를 받는다.
 
   
 
@@ -108,6 +110,12 @@ kafka-server에서 `topic`이 생성된 것을 확인할 수 있다.
   
 
 <img src="https://t1.daumcdn.net/cfile/tistory/990DED495C9C7A4B11" alt="img" style="zoom:67%;" />
+
+마이크로 서비스 간에 동기식 요청 방식이 아닌, message 기반의 아키텍처를 이용하면 
+
+- 느슨한 결합 
+- 내구성: 서비스 간의 직접적인 통신이 없기 때문에 구독자가 가동중이 아니더라도 메세지를 계속 발행할 수 있다.
+- 유연성: publisher는 누가 메세지를 소비(subscribe)하는지 알 수 없다. 그러므로 publisher서비스에 영향을 주지 않고 쉽게 새로운 메세지 소비자를 추가할 수 있다.
 
 
 
@@ -123,3 +131,5 @@ kafka-server에서 `topic`이 생성된 것을 확인할 수 있다.
 - **[window 환경에 kafka설치하고 간단히 테스트 해보기](https://oingdaddy.tistory.com/274)**
 - **[apache kafka 구축 - springboot 기반 msa](https://mr-spock.tistory.com/46)**
 - [메시징 시스템의 이해](https://victorydntmd.tistory.com/343)
+
+- [spring cloud stream을 사용해서 event-driven architecture 연습해보기 feat kafka](https://sup2is.github.io/2020/04/21/spring-cloud-stream-example.html)
