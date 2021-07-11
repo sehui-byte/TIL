@@ -83,6 +83,15 @@ $ ssh -T company-gitlab.com
 
    그리고 `path`변수에 들어간 `.giconfig-*`를 만들어준다.
 
+   예를 들면, `.gitconfig-personal`파일을 만들고 아래와 같이 적는다.
+
+   ```
+   $cat > ,gitconfig-personal
+   [파일 내용]
+   ```
+
+   입력을 마칠 때는 ctrl+d를 누르면 된다.
+
    ```
    [user]
    	email = {이메일 주소}
@@ -102,3 +111,5 @@ $ ssh -T company-gitlab.com
 - https://dublin-java.tistory.com/62
 
 - https://yangeok.github.io/git/2020/03/08/ssh-multiple-account.html
+
+- [리눅스 명령어 cat](https://m.blog.naver.com/seunggon25/20197325534)
