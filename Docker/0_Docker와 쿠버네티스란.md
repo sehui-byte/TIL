@@ -14,11 +14,11 @@
 
   - **애플리케이션, 애플리케이션을 구동하는 환경을 격리한 공간.**
 
-  - 기존 `VirtualBox`같은 *가상머신*은 host OS 위에 guest OS 전체를 가상화하여 사용하는 방식이다. 여러가지 OS를 사용할 수 있다는 장점이 있지만 무겁고 느리다는 단점이 있다.
+  - **기존 `VirtualBox`같은 *가상머신***은 host OS 위에 **`guest OS` 전체를 가상화하여 사용**하는 방식이다. 여러가지 OS를 사용할 수 있다는 장점이 있지만 무겁고 느리다는 단점이 있다.
 
   - 이후에 이를 개선하기 위해 *CPU 가상화기술(HVM)을 이용한 KVM(Kernel-based VM)과 반가상화(Paravirtualization)방식*의 `Xen`이 등장했다. 전체 OS를 가상화하지 않기 때문에 이전에 비해 성능이 향상되었다.
 
-  - 어쨌든 추가적인 OS를 가상화하는 방식은 성능문제가 있었다. 이를 개선하기 위해 프로세스를 격리하는 방식이 등장하였다.
+  - 어쨌든 추가적인 OS를 가상화하는 방식은 성능문제가 있었다. 이를 개선하기 위해 **프로세스를 격리하는 방식**이 등장하였다.
 
     ![img](https://media.vlpt.us/images/ckstn0777/post/79726ae8-55ec-4f5e-88a3-ef976bc97c43/image.png)
 
@@ -31,10 +31,12 @@
 
 #### 이미지(image)
 
-- 컨테이너 실행에 필요한 파일과 설정값 등을 포함하고 있는 것. 
+- **컨테이너 실행에 필요한 파일과 설정값 등을 포함**하고 있는 것. 
 - immutable하다.
 
+![img](https://blog.kakaocdn.net/dn/cpHQsb/btqD2FXLMtq/kB8gkF36DSJAgC4RIX4GaK/img.png)
 
+---------
 
 
 
