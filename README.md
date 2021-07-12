@@ -25,9 +25,19 @@
 ## Spring
 - [spring이란?](https://github.com/sehui-byte/TIL/blob/main/Spring/spring%EC%9D%B4%EB%9E%80.md)
 - [파일 다운로드시 한글 파일명 깨질 때](https://github.com/sehui-byte/TIL/blob/main/Java/java_%ED%8C%8C%EC%9D%BC%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%EC%8B%9C%20%ED%95%9C%EA%B8%80%EC%A0%9C%EB%AA%A9%20%EC%9D%B8%EC%BD%94%EB%94%A9%20%EA%B9%A8%EC%A7%88%EB%95%8C.md)
+- [Spring과 REST API](https://github.com/sehui-byte/TIL/blob/87bf7d3a965b6053a8012b13232632792b8319f5/Spring/REST%20API%20%26%20Spring.md)
 
-### Mybatis
-- [부등호 사용하여 쿼리문 작성시 발생하는 에러 해결하는 법](https://github.com/sehui-byte/TIL/tree/main/Spring)
+- [Spring WebFlux란?](https://github.com/sehui-byte/TIL/blob/87bf7d3a965b6053a8012b13232632792b8319f5/Spring/Spring%20WebFlux.md)
+
+  
+
+### JPA
+
+- [[JPA 에러] row was updated or deleted by another transaction ](https://github.com/sehui-byte/TIL/blob/87bf7d3a965b6053a8012b13232632792b8319f5/Spring/JPA_row%20was%20updated%20or%20deleted%20by%20another%20transaction.md)
+- [Spring JPA와 QueryDSL](https://github.com/sehui-byte/TIL/blob/87bf7d3a965b6053a8012b13232632792b8319f5/Spring/spring%2Bjpa%2Bquerysdl%2B%EA%B8%B0%EC%B4%88.md)
+
+### ~~Mybatis~~
+- ~~[부등호 사용하여 쿼리문 작성시 발생하는 에러 해결하는 법](https://github.com/sehui-byte/TIL/tree/main/Spring)~~
 
 ### JSTL
 - [jstl버전](https://github.com/sehui-byte/TIL/blob/main/jstl/jstl%EB%B2%84%EC%A0%84.md)
@@ -62,9 +72,8 @@
 
 - [오라클에서 한글을 몇바이트로 인식하고 있는지 확인하기](https://github.com/sehui-byte/TIL/blob/main/DB/ORACLE/%ED%95%9C%EA%B8%80%EC%9D%B4%20%EB%AA%87%EB%B0%94%EC%9D%B4%ED%8A%B8%EB%A1%9C%20%EC%9D%B8%EC%8B%9D%EB%90%98%EA%B3%A0%20%EC%9E%88%EB%8A%94%EA%B0%80.md)
 - [오라클 랜덤추출 DBMS_RANDOM 사용하기](https://github.com/sehui-byte/TIL/blob/main/DB/ORACLE/%EC%98%A4%EB%9D%BC%ED%81%B4%20%EB%9E%9C%EB%8D%A4%20%EC%B6%94%EC%B6%9C%20DBMS_RANDOM.md)
-  
 
-
+- [MariaDB cmd로 사용하기](https://github.com/sehui-byte/TIL/blob/87bf7d3a965b6053a8012b13232632792b8319f5/DB/MariaDB%20cmd%EC%82%AC%EC%9A%A9.md)
 
 ## Java
 
