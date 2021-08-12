@@ -21,8 +21,11 @@
 - [git-특정 파일 히스토리 삭제하는 법](https://github.com/sehui-byte/TIL/blob/main/Git/git%20-%20%ED%8A%B9%EC%A0%95%20%ED%8C%8C%EC%9D%BC%20%ED%9E%88%EC%8A%A4%ED%86%A0%EB%A6%AC%20%EC%82%AD%EC%A0%9C.md)
 - [git commit 정보 수정하는 법](https://github.com/sehui-byte/TIL/blob/main/Git/git%20commit%20%EC%A0%95%EB%B3%B4%20%EC%88%98%EC%A0%95%ED%95%98%EA%B8%B0.md)
 - [window에 여러개의 git계정 설정하는 법](https://github.com/sehui-byte/TIL/blob/main/Git/%EC%9C%88%EB%8F%84%EC%9A%B0%EC%97%90%EC%84%9C%20%EC%97%AC%EB%9F%AC%EA%B0%9C%EC%9D%98%20git%20%EA%B3%84%EC%A0%95%20%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0.md)
-<<<<<<< HEAD
-------
+
+---
+
+
+
 ## Spring
 - [spring이란?](https://github.com/sehui-byte/TIL/blob/main/Spring/spring%EC%9D%B4%EB%9E%80.md)
 - [파일 다운로드시 한글 파일명 깨질 때](https://github.com/sehui-byte/TIL/blob/main/Java/java_%ED%8C%8C%EC%9D%BC%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%EC%8B%9C%20%ED%95%9C%EA%B8%80%EC%A0%9C%EB%AA%A9%20%EC%9D%B8%EC%BD%94%EB%94%A9%20%EA%B9%A8%EC%A7%88%EB%95%8C.md)
@@ -70,13 +73,21 @@
 ## &#128166;DATABASE
 
 - [오라클에서 한글을 몇바이트로 인식하고 있는지 확인하기](https://github.com/sehui-byte/TIL/blob/main/DB/ORACLE/%ED%95%9C%EA%B8%80%EC%9D%B4%20%EB%AA%87%EB%B0%94%EC%9D%B4%ED%8A%B8%EB%A1%9C%20%EC%9D%B8%EC%8B%9D%EB%90%98%EA%B3%A0%20%EC%9E%88%EB%8A%94%EA%B0%80.md)
+
 - [오라클 랜덤추출 DBMS_RANDOM 사용하기](https://github.com/sehui-byte/TIL/blob/main/DB/ORACLE/%EC%98%A4%EB%9D%BC%ED%81%B4%20%EB%9E%9C%EB%8D%A4%20%EC%B6%94%EC%B6%9C%20DBMS_RANDOM.md)
 
 - [MariaDB cmd로 사용하기](https://github.com/sehui-byte/TIL/blob/87bf7d3a965b6053a8012b13232632792b8319f5/DB/MariaDB%20cmd%EC%82%AC%EC%9A%A9.md)
 
+  
+
 ---
 
+
+
 ## &#127800;Spring
+
+- [MariaDB cmd로 사용하기](https://github.com/sehui-byte/TIL/blob/87bf7d3a965b6053a8012b13232632792b8319f5/DB/MariaDB%20cmd%EC%82%AC%EC%9A%A9.md)
+
 - [spring이란?](https://github.com/sehui-byte/TIL/blob/main/Spring/spring%EC%9D%B4%EB%9E%80.md)
 - [파일 다운로드시 한글 파일명 깨질 때](https://github.com/sehui-byte/TIL/blob/main/Java/java_%ED%8C%8C%EC%9D%BC%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%EC%8B%9C%20%ED%95%9C%EA%B8%80%EC%A0%9C%EB%AA%A9%20%EC%9D%B8%EC%BD%94%EB%94%A9%20%EA%B9%A8%EC%A7%88%EB%95%8C.md)
 
@@ -157,8 +168,8 @@ udemy강좌와 '컨테이너 인프라 환경 구축을 위한 쿠버네티스/�
 - [참고자료 - React에서 return과 render의 차이](https://stackoverflow.com/questions/49078679/what-is-the-difference-between-render-and-return-in-reactjs)
 
 
----
 
+---
 
 
 ## &#128155;Python 
