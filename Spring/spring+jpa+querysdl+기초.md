@@ -60,7 +60,7 @@ public class LoginDAOImpl implements LoginDAO {
 
 - JPA (Java Persistence API) : <u>**자바 ORM 기술에 대한 API 표준 명세.**</u>
 
-- JPA는 **단순 명세**이기 때문에 구현이 없고, JPA를 정의한 `javax.persistence`package의 대부분은 `interface`, `enum`, `Exception`, 그리고 각종 `Anotaion`으로 이루어져있다.
+- JPA는 **단순 명세**이기 때문에 구현이 없고, JPA를 정의한 `javax.persistence`package의 대부분은 `interface`, `enum`, `Exception`, 그리고 각종 `Annotaion`으로 이루어져있다.
 
 - `EntityManager`도 interface로 구현되어있다.
 
