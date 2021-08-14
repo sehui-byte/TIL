@@ -4,6 +4,8 @@
 
 - **spring5부터 지원**
 
+- `RestTemplate`를 대체
+
 - **reactive-stack web framework**
 
 - Netty, Undertow, Servlet 3.1+  컨테이너같은 `non-blocking servers`에서 `Reactive Streams API` 기반으로 reactive-stack 웹어플리케이션을 실행시키기 위한 것
@@ -30,22 +32,50 @@
 ### WebClient
 
 - spring5와 springboot 2.0부터 `AsyncRestTemplate`가 deprecated 됨.
+
 - 비동기 요청하기 위해선 `WebClient` 사용
 
+  
 
-
-request
+- `bodyToMono()`  : 가져온 body를 Reactor의 Mono객체로 변경
+- `Mono` : 0-1개의 결과 처리 
+- `Flux` : 0-N개의 결과 처리
 
 ```java
-WebClient webClient = new WebClie
+WebClient webClient = new WebClient.create("base url");
 
 public Test findTest(String testId){
-	webClient.get().uri("/test").body
+	webClient.get().uri("/test?id={id}", "id-1")
+        .retrieve()	//response를 받음
+        .bodyToMono(Test.class).block();
 }
+
+public 
 
 ```
 
 
+
+#### response 받아오기
+
+`exchange()`와 `retrieve()`는 response body를 받아오는 역할을 한다. response가 4XX나 5XX 상태로 오면 예외를 발생시킨다.
+
+다만 `exchange()`는 
+
+- ```java
+  WebClient client = WebClient.create("https://example.org");
+  
+  Mono<Person> result = client.get()
+          .uri("/persons/{id}", id).accept(MediaType.APPLICATION_JSON)
+          .retrieve()
+          .bodyToMono(Person.class);
+  ```
+
+- ```java
+   ResponseSpec retrieve() 
+  ```
+
+- 
 
 
 
@@ -56,9 +86,9 @@ public Test findTest(String testId){
 ### 참고자료
 
 - [spring webFlux 공식문서](https://docs.spring.io/spring-framework/docs/current/reference/html/web-reactive.html)
-
 - [위 공식문서 번역본](https://12bme.tistory.com/597)
-
 - [spring webflux - webclient 사용해보기](https://akageun.github.io/2019/06/23/spring-webflux-4-webclient.html)
-
 - https://sseambong.tistory.com/270
+- http://wonwoo.ml/index.php/post/2364
+
+- [[Spring WebFlux는 어떻게 적은 리소스로 많은 트래픽을 감당할까?](https://alwayspr.tistory.com/44)]

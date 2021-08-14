@@ -3,9 +3,7 @@
 ### REST API란?
 
 - Representational State Transfer
-- 하나의 URI는 하나의 고유한 Resource를 대표하도록 설계된다는 개념.
-
-
+- **하나의 URI는 하나의 고유한 Resource를 대표하도록 설계된다는 개념.**
 
 #### 구성
 
