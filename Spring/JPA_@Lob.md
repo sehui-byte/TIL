@@ -16,7 +16,7 @@
      protected String report;
   
      //Example 2:
-  
+ 
      @Lob @Basic(fetch=LAZY)
      @Column(name="EMP_PIC", 	columnDefinition="BLOB NOT NULL")
      protected byte[] pic;
