@@ -11,7 +11,7 @@ CREATE TABLE [NEW_TABLE] LIKE [OLD_TABLE];
 ```
 
 - 기존 테이블의 설정 그대로 (제약조건 포함) 복사가 된다.
-- 테이블 구조만 복사가 되고, 데이터는 복사되지 않는다. 데이터 복사가 필요하다면 `insert`문을 추가해주면 되겠다.
+- **테이블 구조만 복사가 되고, 데이터는 복사되지 않는다.** 데이터 복사가 필요하다면 `insert`문을 추가해주면 되겠다.
 
 
 
@@ -25,7 +25,7 @@ CREATE TABLE [NEW_TABLE] AS
 SELECT * FROM [OLD_TABLE];
 ```
 
-- 테이블의 구조와 함께 데이터도 복사가 된다.
+- 테이블의 구조와 함께 **데이터도 복사**가 된다.
 - **다만 기본키(primary key), index, auto increment는 제외하고 복사된다.**
 
 
