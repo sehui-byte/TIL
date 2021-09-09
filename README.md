@@ -22,6 +22,7 @@
 - [git commit 정보 수정하는 법](https://github.com/sehui-byte/TIL/blob/main/Git/git%20commit%20%EC%A0%95%EB%B3%B4%20%EC%88%98%EC%A0%95%ED%95%98%EA%B8%B0.md)
 - [window에 여러개의 git계정 설정하는 법](https://github.com/sehui-byte/TIL/blob/main/Git/%EC%9C%88%EB%8F%84%EC%9A%B0%EC%97%90%EC%84%9C%20%EC%97%AC%EB%9F%AC%EA%B0%9C%EC%9D%98%20git%20%EA%B3%84%EC%A0%95%20%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0.md)
 - [git token authentic](https://github.com/sehui-byte/TIL/blob/main/Git/git_token_authentic.md)
+- [git stash 명령어 사용하기](https://github.com/sehui-byte/TIL/blob/main/Git/git%20stash.md)
 
 ---
 
