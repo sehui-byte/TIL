@@ -11,15 +11,17 @@ String birthDay = LocalDateTime.now().format(DateTimeFormatter.ISO_DATE);
 
 - **java.time 패키지** : **java8에 추가된 날짜와 시간에 대한 api**이다**.** 이전에 자바의 기본 SDK에서 java.util.Date클래스와 java.util.Calendar클래스의 불편함을 개선하기 위해 나온 api라고 한다.
 
-    **<Date클래스와 Calendar클래스의 문제점>**
+    
 
+    **<Date클래스와 Calendar클래스의 문제점>**
+    
     - **not immutable** : 불변객체가 아니라서 Calendar객체나 Date객체가 여러 곳에서 공유될 경우 영향을 받을 수 있다 ( 값이 바뀔 수 있다).
     - **month값이 헷갈린다** : `Calendar.OCTOBER`의 값은 9이다. Date클래스는 1월을 0으로 시작해서 값이 1씩 차이나서 헷갈릴 수 있다는 단점이 있다.
 
     이밖에도 다양한 문제점들이 있다고 하는데 추후 더 참고자료를 꼼꼼히 읽어볼 예정이다.
 
     ### java.time패키지
-
+    
     - This class is **immutable and thread-safe.**
     - `LocalDate` : 날짜 정보만 필요할 때 사용.
     - `LocalTime` : 시간 정보만 필요할 때 사용.

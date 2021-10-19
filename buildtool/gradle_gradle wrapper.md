@@ -4,10 +4,6 @@ gradle에는 wrapper라고 하는 운영체제에 맞춰서 gradle build를 수�
 
 **gradle 버전이 서로 다른 개발환경에서 기본으로 설치된 gradle 버전과 상관없이 해당 프로젝트에 종속된 gradle버전으로 사용할 수 있도록 해주는 것.**
 
-![image-20210607095731967](C:\Users\nextree\AppData\Roaming\Typora\typora-user-images\image-20210607095731967.png)
-
-
-
 #### gradle-wrapper.properties 파일
 
 ```properties
@@ -26,16 +22,10 @@ gradle wrapper는 `GRADLE_USER_HOME`에 찾는 gradle이 있는지 확인을 하
 다운받아지는 gradle은 
 
 ```
-C:\Users\[username\].gradle\wrapper\dists
+C:\Users\[username]\.gradle\wrapper\dists
 ```
 
 위 경로에 받아진다.
-
-![image-20210607100215105](C:\Users\nextree\AppData\Roaming\Typora\typora-user-images\image-20210607100215105.png)
-
-![image-20210607100759865](C:\Users\nextree\AppData\Roaming\Typora\typora-user-images\image-20210607100759865.png)
-
-
 
 
 
