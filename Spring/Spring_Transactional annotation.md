@@ -24,11 +24,11 @@
 
 🖍정리하자면, spring은 선언적 트랜잭션(declarative transaction)을 지원하고, 그것이 바로 `@Transactional`이다. 
 
-이는 편리해서 programmatic transaction보다 자주 사용하지만, programmatic transaction을 사용해야 하는 경우도 있다. 왜냐하면 declarative transaction은 proxy방식으로 동작하기 때문에 proxy 외부에서 접근해야 AOP가 적용된다.
-
- 이럴 땐TransactionTemplate을 사용해서 직접 트랜잭션을 관리해야한다.
+이는 편리해서 programmatic transaction보다 자주 사용하지만, programmatic transaction을 사용해야 하는 경우도 있다. 왜냐하면 declarative transaction은 proxy방식으로 동작하기 때문에 proxy 외부에서 접근해야 AOP가 적용된다. 이럴 땐TransactionTemplate을 사용해서 직접 트랜잭션을 관리해야한다.
 
 
+
+추후 예시 추가 예정.
 
 
 
